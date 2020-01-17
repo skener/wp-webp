@@ -1,0 +1,9 @@
+{
+  "name": "andriy_tserkovnyk/webp-plugin",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Webp\\": "Webp/"
+    }
+  }
+}

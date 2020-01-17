@@ -1,0 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Generated files
+.idea/**/contentModel.xml
+.*
+*~
+nbproject
+nb-configuration.xml
+Session.vim
+*.tmproj
+*.tmproject
+tmtags
+Thumbs.db
+Desktop.ini
+.gitignore
+
+# ignore Composer downloads
+/vendor/*
+
+# keep some hiddens
+!.htaccess
+!/.gitignore
+!/.travis.yml
