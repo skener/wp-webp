@@ -38,7 +38,8 @@ class Webp
      */
     public function initScripts()
     {
-        wp_enqueue_script('webp-lazy-load-js', $src = plugins_url('/webp_plugin/js/webp-lazy-load.js'), array('jquery'), microtime(), true);
+        wp_register_script('webp-lazy-load-js', $src = plugins_url('/webp_plugin/js/webp-lazy-load.js'), array('jquery'), microtime(), true);
+        wp_enqueue_script('webp-lazy-load-js');
     }
 
     /**
