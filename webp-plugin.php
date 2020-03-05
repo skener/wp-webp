@@ -30,4 +30,4 @@ if (!class_exists('Webp\Webp')) {
     $webp = new Webp();
 }
 
-
+add_action('init', 'init_plugin');
